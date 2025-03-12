@@ -27,11 +27,11 @@ To run this project locally, ensure you have Python installed along with the nec
 
 1. Clone this repository to your local machine:
     ```bash
-    git clone https://github.com/yourusername/prostate-cancer-risk-prediction.git
+    git clone https://github.com/sgr308/PRAD_risk_prediction.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd prostate-cancer-risk-prediction
+    cd PRAD_risk_prediction
     ```
 3. Install the required dependencies:
     ```bash
