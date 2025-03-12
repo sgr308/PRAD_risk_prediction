@@ -61,18 +61,18 @@ To run this project locally, ensure you have Python installed along with the nec
 input_data = (1.2, 0.5, 1.7, 2008, 1, 0, 61, 0, 0, 0, 0, 0)
 
 Output:
+```text
 The Prostate Cancer is at low risk
 
 ---
 
-
-## **Project Overview** <a name="project-overview"></a>
+## **Project Overview**
 
 This project leverages machine learning techniques to classify prostate cancer risks.  
 
 ---
 
-## **Predictive System** <a name="predictive-system"></a>
+## **Predictive System**
 
 This project includes a predictive system that uses trained Logistic Regression models to classify the risk of prostate cancer.  
 Users can input new patient data, and the system predicts the risk category.  
