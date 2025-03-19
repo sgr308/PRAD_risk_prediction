@@ -97,28 +97,9 @@ test_data_accuracy = accuracy_score(Y_test, X_test_prediction)
 print('Accuracy on test data = ', test_data_accuracy)
 
 """Building a Predictive System"""
-# TEST 1
+# Enter your new patient data below in "input_data" variable
 from re import M
 input_data = (0.7,0.6,1.2,2010,1,0,53,90,15,7,7,1)
-
-# change the input data to a numpy array
-input_data_as_numpy_array = np.asarray(input_data)
-
-# reshape the numpy array as we are predicting for one datapoint
-input_data_reshaped = input_data_as_numpy_array.reshape(1,-1)
-
-prediction = model.predict(input_data_reshaped)
-print(prediction)
-
-if (prediction == 'Primary Tumor'):
-  print('The Prosate cancer is at high risk')
-
-else:
-  print('The Prostate Cancer is at low risk')
-
-# TEST 2
-from re import M
-input_data = (1.2,0.5,1.7,2008,1,0,61,0,0,0,0,0)
 
 # change the input data to a numpy array
 input_data_as_numpy_array = np.asarray(input_data)
