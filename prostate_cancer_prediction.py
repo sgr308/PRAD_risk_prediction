@@ -11,13 +11,13 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-"""# New Section
+"""
 
 Data Collection & Processing
 """
 
 # loading the data
-dataset = pd.read_csv("P2.csv")
+dataset = pd.read_csv("data.csv")
 
 print(dataset)
 
