@@ -84,6 +84,7 @@ predicted_label = label_encoders['sample_type'].inverse_transform([prediction])[
 # Output
 print("\n Prediction Result:")
 if predicted_label == 'Primary Tumor':
-    print("⚠️ The Prostate cancer is at HIGH risk.")
+    print("The Prostate cancer is at HIGH risk.")
 else:
-    print("✅ The Prostate cancer is at LOW risk.")
+    print("The Prostate cancer is at LOW risk.")
+
