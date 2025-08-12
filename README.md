@@ -48,7 +48,7 @@ To run this project locally, ensure you have Python installed along with the nec
 2. **Run the Script**:
    Execute the script using your Python interpreter:
     ```bash
-    python prostate_cancer_prediction.py
+    python PRAD_ML.py
     ```
 
 3. **Test the Predictive System**:
@@ -56,8 +56,8 @@ To run this project locally, ensure you have Python installed along with the nec
 
 **Example:**
 ```python
-input_data = (1.2, 0.5, 1.7, 2008, 1, 0, 61, 0, 0, 0, 0, 0)
+input_data = ('White', 'Never', 0.7, 0.6, 1.2, 2010, 53, 90, 7, 1)
 
 Output:
-The Prostate Cancer is at low risk
+The Prostate cancer is at HIGH risk.
 
