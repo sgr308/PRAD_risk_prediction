@@ -48,7 +48,7 @@ To run this project locally, ensure you have Python installed along with the nec
 2. **Run the Script**:
    Execute the script using your Python interpreter:
     ```bash
-    python PRAD_ML.py
+    python PRAD_PRED.py
     ```
 
 3. **Test the Predictive System**:
